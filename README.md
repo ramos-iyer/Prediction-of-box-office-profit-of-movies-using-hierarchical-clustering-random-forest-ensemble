@@ -79,6 +79,21 @@ The below sequence needs to be followed in order to run the whole code:
 
 ### Screenshots
 
+![Screenshot2](/images/budget_revenue_trend.png)
+![Screenshot3](/images/genre.png)
+![Screenshot4](/images/language.png)
+![Screenshot5](/images/popularity_vote_trend.png)
+![Screenshot6](/images/prod_cmpny.png)
+![Screenshot7](/images/prod_cntry.png)
+![Screenshot8](/images/review_movie.png)
+![Screenshot9](/images/runtime.png)
+![Screenshot10](/images/status_count.png)
+![Screenshot11](/images/dendogram.png)
+![Screenshot12](/images/miss.png)
+![Screenshot13](/images/mtry1.png)
+![Screenshot14](/images/mtry2.png)
+![Screenshot15](/images/importance.png)
+
 <a id='config'></a>
 
 ### System Configuration Steps

@@ -39,6 +39,8 @@ File _'Visualization.py'_ :
 - Merges the two datasets to form the final dataset.
 - Exports the merged data into a .csv file.
 
+![Screenshot1](/images/data.png)
+
 <a id='visualization'></a>
 
 #### Data Visualizations

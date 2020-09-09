@@ -86,7 +86,36 @@ In order to run the code, below are the necessary requirements:
 - Python and Python IDE: As the code for data extraction and merging is written in Python, Python along with any IDE is required for the execution of the same. Below are the packages that are required as part of the pre-requisites for the same:
 
 requests, json, pandas, numpy
-- R and R Studio: As the code is developed in R, you need to install R as well as R Studio in order to open and execute the files.
-- Packages: Below is a list of packages that need to be installed before execution of the code.
 
-C50, caret, RWeka, pROC, psych, car, stringr, foreign
+- PowerBI: The visualizations have been created in PowerBI and hence requires PowerBI.
+- R and R Studio: As the code is developed in R, you need to install R as well as R Studio in order to open and execute the files. Below is a list of packages that need to be installed before execution of the code.
+
+tidyverse, plotly, ggthemes, viridis, corrplot, gridExtra, VIM, lubridate, randomForest, caret, psych, RWeka, car, MLmetrics, cluster, clValid, StatMatch
+
+<a id='files'></a>
+
+### File Descriptions
+
+Below are the files and the folders that are part of the project implementation:
+
+1. Code:
+- Visualization.py: Extracts the movie metadata and review data from the API and merges them to form the final dataset.
+- Prediction Model.r: Imports the merged dataset and applies the predictive model on the same.
+
+2. Visualization Dataset:
+- TMDB Movie Reviews.xlsx: Contains the Movie reviews data
+- TMDB Movies.xlsx: Contains the Movie metadata
+- Visualizations.pbix: Contains the visualizations created in PowerBI
+
+3. DAPA.json: Conatains the Movie metadata in .json format
+
+4. DAPA_Reviews.json: Contains the Movie reviews data in .json format
+
+5. TMDB Movies Full.csv: Contains the merged dataset used for model application
+
+<a id='credits'></a>
+
+### Credits and Acknowledgements
+
+* [TMDB](https://www.themoviedb.org/) for providing the API to extract the data used for this project.
+* [NCI](https://www.ncirl.ie/) for a challenging project as part of their full-time masters in data analytics course subject 'Domain Applications of Predictive Analytics'
